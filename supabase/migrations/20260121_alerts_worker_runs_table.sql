@@ -1,0 +1,12 @@
+-- ============================================
+-- ALERTS WORKER RUNS TABLE (NO-OP)
+-- ============================================
+-- 
+-- This migration is a no-op because alerts_worker_runs already exists in PROD
+-- with schema: id bigint, ran_at timestamptz, source text, note text
+-- 
+-- The table is managed in production and should not be modified by migrations.
+-- ============================================
+
+-- No-op: Table already exists in PROD with correct schema
+-- DO NOT DROP OR RECREATE THIS TABLE

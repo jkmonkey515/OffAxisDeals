@@ -1,0 +1,121 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Macros
+.DS_Store
+*.pem
+
+# Local env files (secrets)
+.env
+.env.*
+
+# Firebase config (contains sensitive project keys)
+# Exclude google-services.json files by default
+**/google-services.json
+# But allow root project config and debug/release variants to be tracked
+!/google-services.json
+!**/src/debug/google-services.json
+!**/src/release/google-services.json
+
+# But allow example env files to be tracked
+!.env.example
+!.env.staging.example
+!.env.production.example
+
+# Typescript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+# --- Generated / build artifacts ---
+node_modules/
+dist/
+web-build/
+.expo/
+.expo-shared/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# --- EAS / Expo local artifacts ---
+*.apk
+*.aab
+*.apks
+*.keystore
+*.jks
+*.p8
+*.orig.*
+
+# --- Native build dirs (CNG prebuild outputs) ---
+android/
+ios/
+
+# --- Firebase / credentials / secrets ---
+google-services.json
+android/app/src/**/google-services.json
+android-creds.json
+credentials.json
+secrets/
+.env
+.env.*
+
+# --- Local scripts / tools / one-off dumps ---
+inspect.json/
+expo.public.json
+expo.public.utf8.json
+maplog.txt
+maps_key_resource.txt
+crash_only.txt
+oad_*.txt
+off_axis_deals_launch_tasks.csv
+bundletool.jar
+tools/
+docs/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+# Firebase / Google services
+google-services.json
+android/**/google-services.json
+ios/GoogleService-Info.plist
+
+# Supabase local
+supabase/.temp/
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+-- Verification SQL for handle_new_user() function
+-- Run this after signup to confirm profile was created correctly
+-- 
+-- Usage: After a user signs up, run this query (as the authenticated user):
+--
+-- SELECT id, is_paid 
+-- FROM public.profiles 
+-- WHERE id = auth.uid();
+--
+-- Expected result: One row with the user's id and is_paid = false
+--
+-- Alternative (for testing as admin):
+-- SELECT id, is_paid 
+-- FROM public.profiles 
+-- WHERE id = '<user-id-here>';
+--
+-- Expected result: One row with the user's id and is_paid = false
+
